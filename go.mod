@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module database
 
 go 1.25.0
@@ -14,3 +15,8 @@ require (
 	github.com/jinzhu/now v1.1.5 // indirect
 	golang.org/x/text v0.20.0 // indirect
 )
+=======
+module belajar-go
+
+go 1.25.0
+>>>>>>> ec0880836f30668644dc6556e826781c131e3550

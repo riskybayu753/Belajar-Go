@@ -1,5 +1,6 @@
 package main
 
+<<<<<<< HEAD
 import (
 	"database/sql"
 	"fmt"
@@ -27,4 +28,15 @@ func main() {
 	defer db.Close()
 
 	fmt.Println("Selesai.....")
+=======
+import "fmt"
+
+func main() {
+	var positiveNumber uint8 = 89
+	var negativeNumber = -1243423644
+
+	fmt.Print("bilangan posifi: %d\n", positiveNumber)
+	fmt.Print("bilangan negatif: %d\n", negativeNumber)
+
+>>>>>>> ec0880836f30668644dc6556e826781c131e3550
 }
